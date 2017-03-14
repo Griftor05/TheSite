@@ -1024,6 +1024,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_guardian;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     guardianIds = []
