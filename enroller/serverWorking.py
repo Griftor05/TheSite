@@ -1079,10 +1079,11 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     # contactSurvey
     pushStr = "INSERT INTO enroller_contactsurvey ("
-    columns = ['id', 'surveyCompleted', 'homePhoneNumber', 'mailingAddress_id', 'physicalAddress_id']
+    columns = ['id', 'surveyCompleted', 'homePhoneNumber', 'mailingAddress_id', 'physicalAddress_id',
+               'mailingAddressChanged']
     pushStr = nameCollapser(pushStr, columns)[0:-2]
     pushStr += ") VALUES ('" + str(topId) + "', false, '" + str(parentPhoneNumber) + "', '" + str(addressIds[6])
-    pushStr += "', '" + str(addressIds[5]) + "') RETURNING id;"
+    pushStr += "', '" + str(addressIds[5]) + "', false) RETURNING id;"
 
     cur.execute(pushStr)
     conn.commit()
