@@ -127,8 +127,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 import os.path
 
-STATIC_ROOT = '/static/'
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+PROJECT_DIR = os.path.join(PROJECT_ROOT,'../enroller')
 
+STATIC_ROOT = os.path.join(PROJECT_ROOT,'static/')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = ( os.path.join('static'), )
