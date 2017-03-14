@@ -994,6 +994,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
     # Pull in the topmost id
     cur.execute("SELECT MAX(id) FROM enroller_address;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     addressIds = []
@@ -1040,6 +1044,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_emergencyandhealthinfo;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     #Start with Emergency and Health because it's going to be a pain in the ass
@@ -1059,6 +1067,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_contactsurvey;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # contactSurvey
@@ -1075,6 +1087,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_homelanguagesurvey;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # homeLanguageSurvey
@@ -1091,6 +1107,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_mainsurvey;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # mainSurvey
@@ -1110,6 +1130,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_mediaconsentform;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # mediaConsentForm
@@ -1125,6 +1149,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_previousschoolsurvey;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # previousSchoolSurvey
@@ -1143,6 +1171,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_raceandethnicitysurvey;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # raceAndEthnicitySurvey
@@ -1158,6 +1190,10 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
 
     cur.execute("SELECT MAX(id) FROM enroller_student;")
     topId = cur.fetchall()[0][0]
+
+    if type(topId) == type(None):
+        topId = 0
+
     topId += 1
 
     # Then bind each of the surveys themselves to a student
@@ -1418,7 +1454,12 @@ def createAnAdmin(usn, pwd, email):
 
     pushStr = "SELECT MAX(id) FROM enroller_admin;"
     cur.execute(pushStr)
-    maxId = cur.fetchall()[0][0] + 1
+    maxId = cur.fetchall()[0][0]
+
+    if type(maxId) == type(None):
+        maxId = 0
+
+    maxId += 1
 
     pwd = superHash(pwd, usn)
     pushStr = "INSERT INTO enroller_admin (id, username, pwd, email) VALUES ('" + str(maxId) + "', '" + usn + "', '"
