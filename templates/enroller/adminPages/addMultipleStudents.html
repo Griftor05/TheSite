@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <b><u>Import a CSV File with Mr Soto's specifications</u></b>
+    <br>
+    <br>
+    <form action="{% url 'addThoseKids' %}" enctype="multipart/form-data" method="post">
+    {% csrf_token %}
+        <input type="file" name="theFile">
+        <br>
+        <br>
+        <input type="submit" value="Add Students">
+        <br>
+        <br>
+        After you submit the students, wait until you download a csv file. That will be the document you need that
+        includes the student's name, as well as the student's activation code.
+    </form>
+    <br>
+    <a href="{% url 'adminMain' %}">Click here</a> to return to the main admin page.
+</body>
+</html>

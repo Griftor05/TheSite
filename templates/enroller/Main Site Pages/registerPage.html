@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static from staticfiles %}
+    <link rel='shortcut icon' href='{% static 'enroller/favicon.jpg' %}' type='image'/>
+    <meta charset="UTF-8">
+    <title>WY Enrollment</title>
+</head>
+<body>
+    <form action="{% url 'register' %}" method="post">
+    {% csrf_token %}
+        <div class="container">
+            <label><b>New Username</b></label>
+            <input type="email" placeholder="Email Address" name="uName" required>
+            <br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Password" name="psw" required>
+            <br>
+            <label><b>Confirm Password</b></label>
+            <input type="password" placeholder="Password" name="pswConf" required>
+            <br>
+            <label><b>Registration Password</b></label>
+            <input type="text" placeholder="Registration Key" name="reg" required>
+            <br>
+            {% if errorMessage %}<p><strong>{{ errorMessage }}</strong></p>{% endif %}
+            <input type="submit" value="Register" />
+        </div>
+    </form>
+</body>
+</html>

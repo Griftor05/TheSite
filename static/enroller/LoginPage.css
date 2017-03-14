@@ -1,0 +1,15 @@
+.page{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color:#0B156A;
+}
+
+.mainContent {
+    background-color:whitesmoke;
+    padding: 15px;
+}
