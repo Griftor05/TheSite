@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/serverWorking.py" afterPath="$PROJECT_DIR$/enroller/serverWorking.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/views.py" afterPath="$PROJECT_DIR$/enroller/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" afterPath="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" afterPath="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/mainPage.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/mainPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/successfulReset.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/successfulReset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html" />
     </list>
     <ignored path="EnrollmentWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serverWorking.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serverWorking.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
@@ -154,8 +159,68 @@
       <file leaf-file-name="addMultipleStudents.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
+            <state relative-caret-position="525">
               <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resetPasswordPageActual.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resetPasswordPageConf.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentBeenCreated.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="successfulReset.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/successfulReset.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="surveyTemplate.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -170,12 +235,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/enroller/settings.py" />
-        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html" />
         <option value="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" />
         <option value="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" />
         <option value="$PROJECT_DIR$/enroller/views.py" />
         <option value="$PROJECT_DIR$/enroller/serverWorking.py" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/mainPage.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/successfulReset.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html" />
       </list>
     </option>
   </component>
@@ -251,10 +323,6 @@
               <option name="myItemId" value="enroller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminPages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -273,36 +341,8 @@
               <option name="myItemId" value="enroller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EnrollmentWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EnrollmentWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enroller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EnrollmentWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EnrollmentWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="Main Site Pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -622,7 +662,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13228941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -787,30 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/enroller/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -934,6 +950,86 @@
             <marker date="1489579516405" expanded="true" signature="56781:56815" ph="SELECT MAX(i... enroller_admin" />
             <marker date="1489579516405" expanded="true" signature="56991:57091" ph="INSERT INTO enroller_admin... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="25" selection-start-line="4" selection-start-column="26" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/mainPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/successfulReset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
