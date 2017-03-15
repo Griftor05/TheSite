@@ -585,7 +585,7 @@ def checkDone(data, db, usn):
     # These numbers are the general lengths the surveys should be to be complete
     # It is technically possible to go over these without filling out certain boxes
     # But that's a negligible test case for right now
-    checkDict = {'mainsurvey':14, 'contactsurvey':6, 'homelanguagesurvey':3, 'emergencyandhealthinfo':50,
+    checkDict = {'mainsurvey':14, 'contactsurvey':6, 'homelanguagesurvey':3, 'emergencyandhealthinfo':45,
                  'mediaconsentform':1, 'previousschoolsurvey':10, 'raceandethnicitysurvey':1}
     posDict = {'mainsurvey':7 , 'contactsurvey':4, 'homelanguagesurvey': 6, 'emergencyandhealthinfo': 5,
                  'mediaconsentform': 8, 'previousschoolsurvey': 9, 'raceandethnicitysurvey': 10}
