@@ -244,7 +244,7 @@ def emergencyAndHealthInfoPage(request):
                                 'Second Guardian Contact Information',
                                 '#guardian2_id',
                                 '*g',
-                                'Neighbor who can be contacted in an emergency and has permission to pick up student.',
+                                'Neighbor who can be contacted in an emergency and has permission to pick up student',
                                 '#neighbor_id',
                                 '*t',
                                 'Medical information',

@@ -586,7 +586,7 @@ def checkDone(data, db, usn):
     # It is technically possible to go over these without filling out certain boxes
     # But that's a negligible test case for right now
     checkDict = {'mainsurvey':14, 'contactsurvey':6, 'homelanguagesurvey':3, 'emergencyandhealthinfo':50,
-                 'mediaconsentform':1, 'previousschoolsurvey':12, 'raceandethnicitysurvey':1}
+                 'mediaconsentform':1, 'previousschoolsurvey':10, 'raceandethnicitysurvey':1}
     posDict = {'mainsurvey':7 , 'contactsurvey':4, 'homelanguagesurvey': 6, 'emergencyandhealthinfo': 5,
                  'mediaconsentform': 8, 'previousschoolsurvey': 9, 'raceandethnicitysurvey': 10}
 
@@ -665,6 +665,10 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
                           'workPhone':'workPhoneNumber', 'commLang':'communicationLanguage'}
     namesAndRadioLists = ast.literal_eval(namesAndRadioLists)
 
+    print(data)
+    print('-------------------------------------------------')
+    print(namesAndRadioLists)
+
     # First you have to pull in the data from the student db, and fetch the survey based on that
     strOrigins = "SELECT " + dbName + "_id FROM enroller_student WHERE username='" + username + "';"
     cur.execute(strOrigins)
@@ -719,6 +723,7 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
             #Get the correct table entry
             myAddressId = idKeys[idOffset]
             idOffset += 1
+            i += 1
 
             # use a for list with the list of items for an address list
             for j in range(0, len(addressNameList)):
@@ -774,6 +779,7 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
             # Get the correct table entry
             myGuardianId = idKeys[idOffset]
             idOffset += 1
+            i += 1
 
             # Then get the address that's referred to in the Guardian entry
             getStr = "SELECT * FROM enroller_guardian WHERE id=" + str(myGuardianId) + ";"
@@ -797,7 +803,7 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
                 # if it's a list, pull the data out, and push it to the guardian database
 
                 if guardianNameList[j] == 'address':
-                    for h in range(0, len(addressNameList) - 1):
+                    for h in range(0, len(addressNameList)):
                         # First get the name of the dictEntry
                         entryName = nameOfGuardian + '_' + addressNameList[h]
 

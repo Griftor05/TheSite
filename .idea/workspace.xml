@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/serverWorking.py" afterPath="$PROJECT_DIR$/enroller/serverWorking.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/views.py" afterPath="$PROJECT_DIR$/enroller/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" afterPath="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" afterPath="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" />
     </list>
     <ignored path="EnrollmentWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,127 +29,134 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enroller/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3300">
-              <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="serverWorking.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="587" column="32" selection-start-line="587" selection-start-column="32" selection-end-line="587" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1489544796526" expanded="true" signature="1315:1379" ph="SELECT * FRO... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="2261:2345" ph="SELECT * FRO... COLUMNS" />
-                <marker date="1489544796526" expanded="true" signature="2360:2407" ph="SELECT * FRO... enroller_missing_value" />
-                <marker date="1489544796526" expanded="true" signature="3407:3447" ph="SELECT * FRO... enroller_address" />
-                <marker date="1489544796526" expanded="true" signature="4610:4651" ph="SELECT * FRO... enroller_guardian" />
-                <marker date="1489544796526" expanded="true" signature="5231:5271" ph="SELECT * FRO... enroller_address" />
-                <marker date="1489544796526" expanded="true" signature="21046:21076" ph="SELECT * fro... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="21941:22032" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="22471:22499" ph="SELECT * fro... enroller_admin" />
-                <marker date="1489544796526" expanded="true" signature="22584:22614" ph="SELECT * fro... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="25396:25462" ph="SELECT \&quot;mai... enroller_contactsurvey" />
-                <marker date="1489544796526" expanded="true" signature="25588:25628" ph="SELECT * FRO... enroller_address" />
-                <marker date="1489544796526" expanded="true" signature="26371:26445" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="27856:27940" ph="SELECT * FRO... COLUMNS" />
-                <marker date="1489544796526" expanded="true" signature="27955:28002" ph="SELECT * FRO... enroller_missing_value" />
-                <marker date="1489544796526" expanded="true" signature="29868:29968" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="31558:31599" ph="SELECT * FRO... enroller_guardian" />
-                <marker date="1489544796526" expanded="true" signature="32923:33056" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="33608:33738" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="34029:34158" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="36313:36378" ph="SELECT * fro... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="37146:37237" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="37525:37590" ph="SELECT * fro... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="37877:37955" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="38292:38371" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="39557:39593" ph="SELECT MAX(i... enroller_address" />
-                <marker date="1489544796526" expanded="true" signature="40771:40808" ph="SELECT MAX(i... enroller_guardian" />
-                <marker date="1489544796526" expanded="true" signature="41059:41090" ph="INSERT INTO enroller_guardian... " />
-                <marker date="1489544796526" expanded="true" signature="41797:41848" ph="SELECT MAX(i... enroller_emergencyandhealthinfo" />
-                <marker date="1489544796526" expanded="true" signature="42050:42095" ph="INSERT INTO enroller_emergencyandhealthinfo... " />
-                <marker date="1489544796526" expanded="true" signature="42912:42954" ph="SELECT MAX(i... enroller_contactsurvey" />
-                <marker date="1489544796526" expanded="true" signature="43096:43132" ph="INSERT INTO enroller_contactsurvey... " />
-                <marker date="1489544796526" expanded="true" signature="43618:43665" ph="SELECT MAX(i... enroller_homelanguagesurvey" />
-                <marker date="1489544796526" expanded="true" signature="43812:43853" ph="INSERT INTO enroller_homelanguagesurvey... " />
-                <marker date="1489544796526" expanded="true" signature="44320:44359" ph="SELECT MAX(i... enroller_mainsurvey" />
-                <marker date="1489544796526" expanded="true" signature="44498:44531" ph="INSERT INTO enroller_mainsurvey... " />
-                <marker date="1489544796526" expanded="true" signature="45286:45331" ph="SELECT MAX(i... enroller_mediaconsentform" />
-                <marker date="1489544796526" expanded="true" signature="45476:45515" ph="INSERT INTO enroller_mediaconsentform... " />
-                <marker date="1489544796526" expanded="true" signature="45812:45861" ph="SELECT MAX(i... enroller_previousschoolsurvey" />
-                <marker date="1489544796526" expanded="true" signature="46010:46053" ph="INSERT INTO enroller_previousschoolsurvey... " />
-                <marker date="1489544796526" expanded="true" signature="46707:46758" ph="SELECT MAX(i... enroller_raceandethnicitysurvey" />
-                <marker date="1489544796526" expanded="true" signature="46909:46954" ph="INSERT INTO enroller_raceandethnicitysurvey... " />
-                <marker date="1489544796526" expanded="true" signature="47262:47298" ph="SELECT MAX(i... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="47480:47510" ph="INSERT INTO enroller_student... " />
-                <marker date="1489544796526" expanded="true" signature="48848:48919" ph="SELECT * FRO... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="49672:49738" ph="SELECT neigh... enroller_emergencyandhealthinfo" />
-                <marker date="1489544796526" expanded="true" signature="49927:50002" ph="SELECT \&quot;doc... enroller_emergencyandhealthinfo" />
-                <marker date="1489544796526" expanded="true" signature="50137:50204" ph="SELECT \&quot;mai... enroller_contactsurvey" />
-                <marker date="1489544796526" expanded="true" signature="50334:50402" ph="SELECT \&quot;phy... enroller_contactsurvey" />
-                <marker date="1489544796526" expanded="true" signature="50532:50608" ph="SELECT \&quot;old... enroller_previousschoolsurvey" />
-                <marker date="1489544796526" expanded="true" signature="50818:50877" ph="SELECT \&quot;hom... enroller_guardian" />
-                <marker date="1489544796526" expanded="true" signature="51086:51155" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51182:51256" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51283:51371" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51398:51472" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51499:51567" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51594:51670" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51697:51779" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51806:51892" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="51949:52004" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="52060:52114" ph="DELETE FROM " />
-                <marker date="1489544796526" expanded="true" signature="53816:53839" ph="SELECT * FRO... enroller_missing_value" />
-                <marker date="1489544796526" expanded="true" signature="54111:54193" ph="SELECT mains... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="54369:54430" ph="SELECT * FRO... enroller_mainsurvey" />
-                <marker date="1489544796526" expanded="true" signature="54998:55092" ph="UPDATE enrol... " />
-                <marker date="1489544796526" expanded="true" signature="55355:55396" ph="SELECT \&quot;sch... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="55608:55672" ph="SELECT * FRO... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="55968:56032" ph="SELECT * FRO... enroller_student" />
-                <marker date="1489544796526" expanded="true" signature="56361:56433" ph="SELECT * FRO... enroller_missing_value" />
-                <marker date="1489544796526" expanded="true" signature="56637:56671" ph="SELECT MAX(i... enroller_admin" />
-                <marker date="1489544796526" expanded="true" signature="56847:56947" ph="INSERT INTO enroller_admin... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginPage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroller/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2048">
-              <caret line="232" column="110" selection-start-line="232" selection-start-column="110" selection-end-line="232" selection-end-column="110" />
+            <state relative-caret-position="307">
+              <caret line="255" column="61" selection-start-line="255" selection-start-column="61" selection-end-line="255" selection-end-column="61" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serverWorking.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="773" column="18" selection-start-line="773" selection-start-column="18" selection-end-line="773" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#391#763#0" expanded="false" />
+                <element signature="e#1038#1141#0" expanded="false" />
+                <element signature="e#1250#1435#0" expanded="false" />
+                <element signature="e#1577#1721#0" expanded="false" />
+                <element signature="e#1878#7347#0" expanded="false" />
+                <element signature="e#7569#20783#1" expanded="false" />
+                <element signature="e#20980#21338#0" expanded="false" />
+                <element signature="e#21438#21611#0" expanded="false" />
+                <element signature="e#21757#22104#0" expanded="false" />
+                <element signature="e#22381#23252#0" expanded="false" />
+                <element signature="e#23382#23661#0" expanded="false" />
+                <element signature="e#23823#25061#0" expanded="false" />
+                <element signature="e#25175#26530#0" expanded="false" />
+                <element signature="e#36301#37522#0" expanded="false" />
+                <element signature="e#37603#38175#0" expanded="false" />
+                <element signature="e#38251#38557#0" expanded="false" />
+                <element signature="e#38690#38766#0" expanded="false" />
+                <element signature="e#39021#48646#0" expanded="false" />
+                <element signature="e#48763#52335#0" expanded="false" />
+                <element signature="e#52435#53547#0" expanded="false" />
+                <element signature="e#53621#54099#0" expanded="false" />
+                <element signature="e#54190#54867#0" expanded="false" />
+                <element signature="e#55078#55281#0" expanded="false" />
+                <element signature="e#55434#55655#0" expanded="false" />
+                <element signature="e#55687#55951#0" expanded="false" />
+                <element signature="e#56047#56673#0" expanded="false" />
+                <element signature="e#56716#57179#0" expanded="false" />
+                <marker date="1489579516405" expanded="true" signature="1315:1379" ph="SELECT * FRO... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="2261:2345" ph="SELECT * FRO... COLUMNS" />
+                <marker date="1489579516405" expanded="true" signature="2360:2407" ph="SELECT * FRO... enroller_missing_value" />
+                <marker date="1489579516405" expanded="true" signature="3407:3447" ph="SELECT * FRO... enroller_address" />
+                <marker date="1489579516405" expanded="true" signature="4610:4651" ph="SELECT * FRO... enroller_guardian" />
+                <marker date="1489579516405" expanded="true" signature="5231:5271" ph="SELECT * FRO... enroller_address" />
+                <marker date="1489579516405" expanded="true" signature="21046:21076" ph="SELECT * fro... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="21941:22032" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="22471:22499" ph="SELECT * fro... enroller_admin" />
+                <marker date="1489579516405" expanded="true" signature="22584:22614" ph="SELECT * fro... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="25396:25462" ph="SELECT \&quot;mai... enroller_contactsurvey" />
+                <marker date="1489579516405" expanded="true" signature="25588:25628" ph="SELECT * FRO... enroller_address" />
+                <marker date="1489579516405" expanded="true" signature="26371:26445" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="27966:28050" ph="SELECT * FRO... COLUMNS" />
+                <marker date="1489579516405" expanded="true" signature="28065:28112" ph="SELECT * FRO... enroller_missing_value" />
+                <marker date="1489579516405" expanded="true" signature="29997:30097" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="31706:31747" ph="SELECT * FRO... enroller_guardian" />
+                <marker date="1489579516405" expanded="true" signature="33067:33200" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="33752:33882" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="34173:34302" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="36457:36522" ph="SELECT * fro... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="37290:37381" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="37669:37734" ph="SELECT * fro... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="38021:38099" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="38436:38515" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="39701:39737" ph="SELECT MAX(i... enroller_address" />
+                <marker date="1489579516405" expanded="true" signature="40915:40952" ph="SELECT MAX(i... enroller_guardian" />
+                <marker date="1489579516405" expanded="true" signature="41203:41234" ph="INSERT INTO enroller_guardian... " />
+                <marker date="1489579516405" expanded="true" signature="41941:41992" ph="SELECT MAX(i... enroller_emergencyandhealthinfo" />
+                <marker date="1489579516405" expanded="true" signature="42194:42239" ph="INSERT INTO enroller_emergencyandhealthinfo... " />
+                <marker date="1489579516405" expanded="true" signature="43056:43098" ph="SELECT MAX(i... enroller_contactsurvey" />
+                <marker date="1489579516405" expanded="true" signature="43240:43276" ph="INSERT INTO enroller_contactsurvey... " />
+                <marker date="1489579516405" expanded="true" signature="43762:43809" ph="SELECT MAX(i... enroller_homelanguagesurvey" />
+                <marker date="1489579516405" expanded="true" signature="43956:43997" ph="INSERT INTO enroller_homelanguagesurvey... " />
+                <marker date="1489579516405" expanded="true" signature="44464:44503" ph="SELECT MAX(i... enroller_mainsurvey" />
+                <marker date="1489579516405" expanded="true" signature="44642:44675" ph="INSERT INTO enroller_mainsurvey... " />
+                <marker date="1489579516405" expanded="true" signature="45430:45475" ph="SELECT MAX(i... enroller_mediaconsentform" />
+                <marker date="1489579516405" expanded="true" signature="45620:45659" ph="INSERT INTO enroller_mediaconsentform... " />
+                <marker date="1489579516405" expanded="true" signature="45956:46005" ph="SELECT MAX(i... enroller_previousschoolsurvey" />
+                <marker date="1489579516405" expanded="true" signature="46154:46197" ph="INSERT INTO enroller_previousschoolsurvey... " />
+                <marker date="1489579516405" expanded="true" signature="46851:46902" ph="SELECT MAX(i... enroller_raceandethnicitysurvey" />
+                <marker date="1489579516405" expanded="true" signature="47053:47098" ph="INSERT INTO enroller_raceandethnicitysurvey... " />
+                <marker date="1489579516405" expanded="true" signature="47406:47442" ph="SELECT MAX(i... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="47624:47654" ph="INSERT INTO enroller_student... " />
+                <marker date="1489579516405" expanded="true" signature="48992:49063" ph="SELECT * FRO... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="49816:49882" ph="SELECT neigh... enroller_emergencyandhealthinfo" />
+                <marker date="1489579516405" expanded="true" signature="50071:50146" ph="SELECT \&quot;doc... enroller_emergencyandhealthinfo" />
+                <marker date="1489579516405" expanded="true" signature="50281:50348" ph="SELECT \&quot;mai... enroller_contactsurvey" />
+                <marker date="1489579516405" expanded="true" signature="50478:50546" ph="SELECT \&quot;phy... enroller_contactsurvey" />
+                <marker date="1489579516405" expanded="true" signature="50676:50752" ph="SELECT \&quot;old... enroller_previousschoolsurvey" />
+                <marker date="1489579516405" expanded="true" signature="50962:51021" ph="SELECT \&quot;hom... enroller_guardian" />
+                <marker date="1489579516405" expanded="true" signature="51230:51299" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51326:51400" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51427:51515" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51542:51616" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51643:51711" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51738:51814" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51841:51923" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="51950:52036" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="52093:52148" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="52204:52258" ph="DELETE FROM " />
+                <marker date="1489579516405" expanded="true" signature="53960:53983" ph="SELECT * FRO... enroller_missing_value" />
+                <marker date="1489579516405" expanded="true" signature="54255:54337" ph="SELECT mains... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="54513:54574" ph="SELECT * FRO... enroller_mainsurvey" />
+                <marker date="1489579516405" expanded="true" signature="55142:55236" ph="UPDATE enrol... " />
+                <marker date="1489579516405" expanded="true" signature="55499:55540" ph="SELECT \&quot;sch... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="55752:55816" ph="SELECT * FRO... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="56112:56176" ph="SELECT * FRO... enroller_student" />
+                <marker date="1489579516405" expanded="true" signature="56505:56577" ph="SELECT * FRO... enroller_missing_value" />
+                <marker date="1489579516405" expanded="true" signature="56781:56815" ph="SELECT MAX(i... enroller_admin" />
+                <marker date="1489579516405" expanded="true" signature="56991:57091" ph="INSERT INTO enroller_admin... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addMultipleStudents.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,9 +171,11 @@
       <list>
         <option value="$PROJECT_DIR$/enroller/settings.py" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" />
-        <option value="$PROJECT_DIR$/enroller/serverWorking.py" />
-        <option value="$PROJECT_DIR$/enroller/views.py" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" />
+        <option value="$PROJECT_DIR$/enroller/views.py" />
+        <option value="$PROJECT_DIR$/enroller/serverWorking.py" />
       </list>
     </option>
   </component>
@@ -242,6 +251,10 @@
               <option name="myItemId" value="enroller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminPages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -258,10 +271,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="enroller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Main Site Pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,7 +632,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28299645" sideWeight="0.43466523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532699" sideWeight="0.43466523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -648,7 +657,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -666,177 +677,113 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1489544796526" expanded="true" signature="1315:1379" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="2261:2345" ph="SELECT * FRO... COLUMNS" />
-            <marker date="1489544796526" expanded="true" signature="2360:2407" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="3407:3447" ph="SELECT * FRO... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="4610:4651" ph="SELECT * FRO... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="5231:5271" ph="SELECT * FRO... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="21046:21076" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="21941:22032" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="22471:22499" ph="SELECT * fro... enroller_admin" />
-            <marker date="1489544796526" expanded="true" signature="22584:22614" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="25396:25462" ph="SELECT \&quot;mai... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="25588:25628" ph="SELECT * FRO... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="26371:26445" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="27856:27940" ph="SELECT * FRO... COLUMNS" />
-            <marker date="1489544796526" expanded="true" signature="27955:28002" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="29868:29968" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="31558:31599" ph="SELECT * FRO... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="32923:33056" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="33608:33738" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="34029:34158" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="36313:36378" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="37146:37237" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="37525:37590" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="37877:37955" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="38292:38371" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="39557:39593" ph="SELECT MAX(i... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="40771:40808" ph="SELECT MAX(i... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="41059:41090" ph="INSERT INTO enroller_guardian... " />
-            <marker date="1489544796526" expanded="true" signature="41797:41848" ph="SELECT MAX(i... enroller_emergencyandhealthinfo" />
-            <marker date="1489544796526" expanded="true" signature="42050:42095" ph="INSERT INTO enroller_emergencyandhealthinfo... " />
-            <marker date="1489544796526" expanded="true" signature="42912:42954" ph="SELECT MAX(i... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="43096:43132" ph="INSERT INTO enroller_contactsurvey... " />
-            <marker date="1489544796526" expanded="true" signature="43618:43665" ph="SELECT MAX(i... enroller_homelanguagesurvey" />
-            <marker date="1489544796526" expanded="true" signature="43812:43853" ph="INSERT INTO enroller_homelanguagesurvey... " />
-            <marker date="1489544796526" expanded="true" signature="44320:44359" ph="SELECT MAX(i... enroller_mainsurvey" />
-            <marker date="1489544796526" expanded="true" signature="44498:44531" ph="INSERT INTO enroller_mainsurvey... " />
-            <marker date="1489544796526" expanded="true" signature="45286:45331" ph="SELECT MAX(i... enroller_mediaconsentform" />
-            <marker date="1489544796526" expanded="true" signature="45476:45515" ph="INSERT INTO enroller_mediaconsentform... " />
-            <marker date="1489544796526" expanded="true" signature="45812:45861" ph="SELECT MAX(i... enroller_previousschoolsurvey" />
-            <marker date="1489544796526" expanded="true" signature="46010:46053" ph="INSERT INTO enroller_previousschoolsurvey... " />
-            <marker date="1489544796526" expanded="true" signature="46707:46758" ph="SELECT MAX(i... enroller_raceandethnicitysurvey" />
-            <marker date="1489544796526" expanded="true" signature="46909:46954" ph="INSERT INTO enroller_raceandethnicitysurvey... " />
-            <marker date="1489544796526" expanded="true" signature="47262:47298" ph="SELECT MAX(i... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="47480:47510" ph="INSERT INTO enroller_student... " />
-            <marker date="1489544796526" expanded="true" signature="48848:48919" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="49672:49738" ph="SELECT neigh... enroller_emergencyandhealthinfo" />
-            <marker date="1489544796526" expanded="true" signature="49927:50002" ph="SELECT \&quot;doc... enroller_emergencyandhealthinfo" />
-            <marker date="1489544796526" expanded="true" signature="50137:50204" ph="SELECT \&quot;mai... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="50334:50402" ph="SELECT \&quot;phy... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="50532:50608" ph="SELECT \&quot;old... enroller_previousschoolsurvey" />
-            <marker date="1489544796526" expanded="true" signature="50818:50877" ph="SELECT \&quot;hom... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="51086:51155" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51182:51256" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51283:51371" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51398:51472" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51499:51567" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51594:51670" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51697:51779" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51806:51892" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51949:52004" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="52060:52114" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="53816:53839" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="54111:54193" ph="SELECT mains... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="54369:54430" ph="SELECT * FRO... enroller_mainsurvey" />
-            <marker date="1489544796526" expanded="true" signature="54998:55092" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="55355:55396" ph="SELECT \&quot;sch... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="55608:55672" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="55968:56032" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="56361:56433" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="56637:56671" ph="SELECT MAX(i... enroller_admin" />
-            <marker date="1489544796526" expanded="true" signature="56847:56947" ph="INSERT INTO enroller_admin... " />
+            <element signature="e#391#763#0" expanded="false" />
+            <element signature="e#1038#1141#0" expanded="false" />
+            <element signature="e#1250#1435#0" expanded="false" />
+            <element signature="e#1577#1721#0" expanded="false" />
+            <element signature="e#1878#7347#0" expanded="false" />
+            <element signature="e#7569#20783#1" expanded="false" />
+            <element signature="e#20980#21338#0" expanded="false" />
+            <element signature="e#21438#21611#0" expanded="false" />
+            <element signature="e#21757#22104#0" expanded="false" />
+            <element signature="e#22381#23252#0" expanded="false" />
+            <element signature="e#23382#23661#0" expanded="false" />
+            <element signature="e#23823#25061#0" expanded="false" />
+            <element signature="e#25175#26530#0" expanded="false" />
+            <element signature="e#36301#37522#0" expanded="false" />
+            <element signature="e#37603#38175#0" expanded="false" />
+            <element signature="e#38251#38557#0" expanded="false" />
+            <element signature="e#38690#38766#0" expanded="false" />
+            <element signature="e#39021#48646#0" expanded="false" />
+            <element signature="e#48763#52335#0" expanded="false" />
+            <element signature="e#52435#53547#0" expanded="false" />
+            <element signature="e#53621#54099#0" expanded="false" />
+            <element signature="e#54190#54867#0" expanded="false" />
+            <element signature="e#55078#55281#0" expanded="false" />
+            <element signature="e#55434#55655#0" expanded="false" />
+            <element signature="e#55687#55951#0" expanded="false" />
+            <element signature="e#56047#56673#0" expanded="false" />
+            <element signature="e#56716#57179#0" expanded="false" />
+            <marker date="1489579516405" expanded="true" signature="1315:1379" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="2261:2345" ph="SELECT * FRO... COLUMNS" />
+            <marker date="1489579516405" expanded="true" signature="2360:2407" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="3407:3447" ph="SELECT * FRO... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="4610:4651" ph="SELECT * FRO... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="5231:5271" ph="SELECT * FRO... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="21046:21076" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="21941:22032" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="22471:22499" ph="SELECT * fro... enroller_admin" />
+            <marker date="1489579516405" expanded="true" signature="22584:22614" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="25396:25462" ph="SELECT \&quot;mai... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="25588:25628" ph="SELECT * FRO... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="26371:26445" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="27966:28050" ph="SELECT * FRO... COLUMNS" />
+            <marker date="1489579516405" expanded="true" signature="28065:28112" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="29997:30097" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="31706:31747" ph="SELECT * FRO... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="33067:33200" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="33752:33882" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="34173:34302" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="36457:36522" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="37290:37381" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="37669:37734" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="38021:38099" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="38436:38515" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="39701:39737" ph="SELECT MAX(i... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="40915:40952" ph="SELECT MAX(i... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="41203:41234" ph="INSERT INTO enroller_guardian... " />
+            <marker date="1489579516405" expanded="true" signature="41941:41992" ph="SELECT MAX(i... enroller_emergencyandhealthinfo" />
+            <marker date="1489579516405" expanded="true" signature="42194:42239" ph="INSERT INTO enroller_emergencyandhealthinfo... " />
+            <marker date="1489579516405" expanded="true" signature="43056:43098" ph="SELECT MAX(i... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="43240:43276" ph="INSERT INTO enroller_contactsurvey... " />
+            <marker date="1489579516405" expanded="true" signature="43762:43809" ph="SELECT MAX(i... enroller_homelanguagesurvey" />
+            <marker date="1489579516405" expanded="true" signature="43956:43997" ph="INSERT INTO enroller_homelanguagesurvey... " />
+            <marker date="1489579516405" expanded="true" signature="44464:44503" ph="SELECT MAX(i... enroller_mainsurvey" />
+            <marker date="1489579516405" expanded="true" signature="44642:44675" ph="INSERT INTO enroller_mainsurvey... " />
+            <marker date="1489579516405" expanded="true" signature="45430:45475" ph="SELECT MAX(i... enroller_mediaconsentform" />
+            <marker date="1489579516405" expanded="true" signature="45620:45659" ph="INSERT INTO enroller_mediaconsentform... " />
+            <marker date="1489579516405" expanded="true" signature="45956:46005" ph="SELECT MAX(i... enroller_previousschoolsurvey" />
+            <marker date="1489579516405" expanded="true" signature="46154:46197" ph="INSERT INTO enroller_previousschoolsurvey... " />
+            <marker date="1489579516405" expanded="true" signature="46851:46902" ph="SELECT MAX(i... enroller_raceandethnicitysurvey" />
+            <marker date="1489579516405" expanded="true" signature="47053:47098" ph="INSERT INTO enroller_raceandethnicitysurvey... " />
+            <marker date="1489579516405" expanded="true" signature="47406:47442" ph="SELECT MAX(i... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="47624:47654" ph="INSERT INTO enroller_student... " />
+            <marker date="1489579516405" expanded="true" signature="48992:49063" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="49816:49882" ph="SELECT neigh... enroller_emergencyandhealthinfo" />
+            <marker date="1489579516405" expanded="true" signature="50071:50146" ph="SELECT \&quot;doc... enroller_emergencyandhealthinfo" />
+            <marker date="1489579516405" expanded="true" signature="50281:50348" ph="SELECT \&quot;mai... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="50478:50546" ph="SELECT \&quot;phy... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="50676:50752" ph="SELECT \&quot;old... enroller_previousschoolsurvey" />
+            <marker date="1489579516405" expanded="true" signature="50962:51021" ph="SELECT \&quot;hom... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="51230:51299" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51326:51400" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51427:51515" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51542:51616" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51643:51711" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51738:51814" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51841:51923" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51950:52036" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="52093:52148" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="52204:52258" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="53960:53983" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="54255:54337" ph="SELECT mains... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="54513:54574" ph="SELECT * FRO... enroller_mainsurvey" />
+            <marker date="1489579516405" expanded="true" signature="55142:55236" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="55499:55540" ph="SELECT \&quot;sch... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="55752:55816" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="56112:56176" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="56505:56577" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="56781:56815" ph="SELECT MAX(i... enroller_admin" />
+            <marker date="1489579516405" expanded="true" signature="56991:57091" ph="INSERT INTO enroller_admin... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enroller/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+        <state relative-caret-position="250">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="587" column="32" selection-start-line="587" selection-start-column="32" selection-end-line="587" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1489544796526" expanded="true" signature="1315:1379" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="2261:2345" ph="SELECT * FRO... COLUMNS" />
-            <marker date="1489544796526" expanded="true" signature="2360:2407" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="3407:3447" ph="SELECT * FRO... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="4610:4651" ph="SELECT * FRO... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="5231:5271" ph="SELECT * FRO... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="21046:21076" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="21941:22032" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="22471:22499" ph="SELECT * fro... enroller_admin" />
-            <marker date="1489544796526" expanded="true" signature="22584:22614" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="25396:25462" ph="SELECT \&quot;mai... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="25588:25628" ph="SELECT * FRO... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="26371:26445" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="27856:27940" ph="SELECT * FRO... COLUMNS" />
-            <marker date="1489544796526" expanded="true" signature="27955:28002" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="29868:29968" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="31558:31599" ph="SELECT * FRO... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="32923:33056" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="33608:33738" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="34029:34158" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="36313:36378" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="37146:37237" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="37525:37590" ph="SELECT * fro... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="37877:37955" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="38292:38371" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="39557:39593" ph="SELECT MAX(i... enroller_address" />
-            <marker date="1489544796526" expanded="true" signature="40771:40808" ph="SELECT MAX(i... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="41059:41090" ph="INSERT INTO enroller_guardian... " />
-            <marker date="1489544796526" expanded="true" signature="41797:41848" ph="SELECT MAX(i... enroller_emergencyandhealthinfo" />
-            <marker date="1489544796526" expanded="true" signature="42050:42095" ph="INSERT INTO enroller_emergencyandhealthinfo... " />
-            <marker date="1489544796526" expanded="true" signature="42912:42954" ph="SELECT MAX(i... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="43096:43132" ph="INSERT INTO enroller_contactsurvey... " />
-            <marker date="1489544796526" expanded="true" signature="43618:43665" ph="SELECT MAX(i... enroller_homelanguagesurvey" />
-            <marker date="1489544796526" expanded="true" signature="43812:43853" ph="INSERT INTO enroller_homelanguagesurvey... " />
-            <marker date="1489544796526" expanded="true" signature="44320:44359" ph="SELECT MAX(i... enroller_mainsurvey" />
-            <marker date="1489544796526" expanded="true" signature="44498:44531" ph="INSERT INTO enroller_mainsurvey... " />
-            <marker date="1489544796526" expanded="true" signature="45286:45331" ph="SELECT MAX(i... enroller_mediaconsentform" />
-            <marker date="1489544796526" expanded="true" signature="45476:45515" ph="INSERT INTO enroller_mediaconsentform... " />
-            <marker date="1489544796526" expanded="true" signature="45812:45861" ph="SELECT MAX(i... enroller_previousschoolsurvey" />
-            <marker date="1489544796526" expanded="true" signature="46010:46053" ph="INSERT INTO enroller_previousschoolsurvey... " />
-            <marker date="1489544796526" expanded="true" signature="46707:46758" ph="SELECT MAX(i... enroller_raceandethnicitysurvey" />
-            <marker date="1489544796526" expanded="true" signature="46909:46954" ph="INSERT INTO enroller_raceandethnicitysurvey... " />
-            <marker date="1489544796526" expanded="true" signature="47262:47298" ph="SELECT MAX(i... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="47480:47510" ph="INSERT INTO enroller_student... " />
-            <marker date="1489544796526" expanded="true" signature="48848:48919" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="49672:49738" ph="SELECT neigh... enroller_emergencyandhealthinfo" />
-            <marker date="1489544796526" expanded="true" signature="49927:50002" ph="SELECT \&quot;doc... enroller_emergencyandhealthinfo" />
-            <marker date="1489544796526" expanded="true" signature="50137:50204" ph="SELECT \&quot;mai... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="50334:50402" ph="SELECT \&quot;phy... enroller_contactsurvey" />
-            <marker date="1489544796526" expanded="true" signature="50532:50608" ph="SELECT \&quot;old... enroller_previousschoolsurvey" />
-            <marker date="1489544796526" expanded="true" signature="50818:50877" ph="SELECT \&quot;hom... enroller_guardian" />
-            <marker date="1489544796526" expanded="true" signature="51086:51155" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51182:51256" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51283:51371" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51398:51472" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51499:51567" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51594:51670" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51697:51779" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51806:51892" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="51949:52004" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="52060:52114" ph="DELETE FROM " />
-            <marker date="1489544796526" expanded="true" signature="53816:53839" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="54111:54193" ph="SELECT mains... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="54369:54430" ph="SELECT * FRO... enroller_mainsurvey" />
-            <marker date="1489544796526" expanded="true" signature="54998:55092" ph="UPDATE enrol... " />
-            <marker date="1489544796526" expanded="true" signature="55355:55396" ph="SELECT \&quot;sch... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="55608:55672" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="55968:56032" ph="SELECT * FRO... enroller_student" />
-            <marker date="1489544796526" expanded="true" signature="56361:56433" ph="SELECT * FRO... enroller_missing_value" />
-            <marker date="1489544796526" expanded="true" signature="56637:56671" ph="SELECT MAX(i... enroller_admin" />
-            <marker date="1489544796526" expanded="true" signature="56847:56947" ph="INSERT INTO enroller_admin... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enroller/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2048">
-          <caret line="232" column="110" selection-start-line="232" selection-start-column="110" selection-end-line="232" selection-end-column="110" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,9 +797,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="450">
           <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enroller/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enroller/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="255" column="61" selection-start-line="255" selection-start-column="61" selection-end-line="255" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="773" column="18" selection-start-line="773" selection-start-column="18" selection-end-line="773" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#391#763#0" expanded="false" />
+            <element signature="e#1038#1141#0" expanded="false" />
+            <element signature="e#1250#1435#0" expanded="false" />
+            <element signature="e#1577#1721#0" expanded="false" />
+            <element signature="e#1878#7347#0" expanded="false" />
+            <element signature="e#7569#20783#1" expanded="false" />
+            <element signature="e#20980#21338#0" expanded="false" />
+            <element signature="e#21438#21611#0" expanded="false" />
+            <element signature="e#21757#22104#0" expanded="false" />
+            <element signature="e#22381#23252#0" expanded="false" />
+            <element signature="e#23382#23661#0" expanded="false" />
+            <element signature="e#23823#25061#0" expanded="false" />
+            <element signature="e#25175#26530#0" expanded="false" />
+            <element signature="e#36301#37522#0" expanded="false" />
+            <element signature="e#37603#38175#0" expanded="false" />
+            <element signature="e#38251#38557#0" expanded="false" />
+            <element signature="e#38690#38766#0" expanded="false" />
+            <element signature="e#39021#48646#0" expanded="false" />
+            <element signature="e#48763#52335#0" expanded="false" />
+            <element signature="e#52435#53547#0" expanded="false" />
+            <element signature="e#53621#54099#0" expanded="false" />
+            <element signature="e#54190#54867#0" expanded="false" />
+            <element signature="e#55078#55281#0" expanded="false" />
+            <element signature="e#55434#55655#0" expanded="false" />
+            <element signature="e#55687#55951#0" expanded="false" />
+            <element signature="e#56047#56673#0" expanded="false" />
+            <element signature="e#56716#57179#0" expanded="false" />
+            <marker date="1489579516405" expanded="true" signature="1315:1379" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="2261:2345" ph="SELECT * FRO... COLUMNS" />
+            <marker date="1489579516405" expanded="true" signature="2360:2407" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="3407:3447" ph="SELECT * FRO... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="4610:4651" ph="SELECT * FRO... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="5231:5271" ph="SELECT * FRO... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="21046:21076" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="21941:22032" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="22471:22499" ph="SELECT * fro... enroller_admin" />
+            <marker date="1489579516405" expanded="true" signature="22584:22614" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="25396:25462" ph="SELECT \&quot;mai... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="25588:25628" ph="SELECT * FRO... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="26371:26445" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="27966:28050" ph="SELECT * FRO... COLUMNS" />
+            <marker date="1489579516405" expanded="true" signature="28065:28112" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="29997:30097" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="31706:31747" ph="SELECT * FRO... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="33067:33200" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="33752:33882" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="34173:34302" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="36457:36522" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="37290:37381" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="37669:37734" ph="SELECT * fro... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="38021:38099" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="38436:38515" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="39701:39737" ph="SELECT MAX(i... enroller_address" />
+            <marker date="1489579516405" expanded="true" signature="40915:40952" ph="SELECT MAX(i... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="41203:41234" ph="INSERT INTO enroller_guardian... " />
+            <marker date="1489579516405" expanded="true" signature="41941:41992" ph="SELECT MAX(i... enroller_emergencyandhealthinfo" />
+            <marker date="1489579516405" expanded="true" signature="42194:42239" ph="INSERT INTO enroller_emergencyandhealthinfo... " />
+            <marker date="1489579516405" expanded="true" signature="43056:43098" ph="SELECT MAX(i... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="43240:43276" ph="INSERT INTO enroller_contactsurvey... " />
+            <marker date="1489579516405" expanded="true" signature="43762:43809" ph="SELECT MAX(i... enroller_homelanguagesurvey" />
+            <marker date="1489579516405" expanded="true" signature="43956:43997" ph="INSERT INTO enroller_homelanguagesurvey... " />
+            <marker date="1489579516405" expanded="true" signature="44464:44503" ph="SELECT MAX(i... enroller_mainsurvey" />
+            <marker date="1489579516405" expanded="true" signature="44642:44675" ph="INSERT INTO enroller_mainsurvey... " />
+            <marker date="1489579516405" expanded="true" signature="45430:45475" ph="SELECT MAX(i... enroller_mediaconsentform" />
+            <marker date="1489579516405" expanded="true" signature="45620:45659" ph="INSERT INTO enroller_mediaconsentform... " />
+            <marker date="1489579516405" expanded="true" signature="45956:46005" ph="SELECT MAX(i... enroller_previousschoolsurvey" />
+            <marker date="1489579516405" expanded="true" signature="46154:46197" ph="INSERT INTO enroller_previousschoolsurvey... " />
+            <marker date="1489579516405" expanded="true" signature="46851:46902" ph="SELECT MAX(i... enroller_raceandethnicitysurvey" />
+            <marker date="1489579516405" expanded="true" signature="47053:47098" ph="INSERT INTO enroller_raceandethnicitysurvey... " />
+            <marker date="1489579516405" expanded="true" signature="47406:47442" ph="SELECT MAX(i... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="47624:47654" ph="INSERT INTO enroller_student... " />
+            <marker date="1489579516405" expanded="true" signature="48992:49063" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="49816:49882" ph="SELECT neigh... enroller_emergencyandhealthinfo" />
+            <marker date="1489579516405" expanded="true" signature="50071:50146" ph="SELECT \&quot;doc... enroller_emergencyandhealthinfo" />
+            <marker date="1489579516405" expanded="true" signature="50281:50348" ph="SELECT \&quot;mai... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="50478:50546" ph="SELECT \&quot;phy... enroller_contactsurvey" />
+            <marker date="1489579516405" expanded="true" signature="50676:50752" ph="SELECT \&quot;old... enroller_previousschoolsurvey" />
+            <marker date="1489579516405" expanded="true" signature="50962:51021" ph="SELECT \&quot;hom... enroller_guardian" />
+            <marker date="1489579516405" expanded="true" signature="51230:51299" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51326:51400" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51427:51515" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51542:51616" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51643:51711" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51738:51814" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51841:51923" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="51950:52036" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="52093:52148" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="52204:52258" ph="DELETE FROM " />
+            <marker date="1489579516405" expanded="true" signature="53960:53983" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="54255:54337" ph="SELECT mains... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="54513:54574" ph="SELECT * FRO... enroller_mainsurvey" />
+            <marker date="1489579516405" expanded="true" signature="55142:55236" ph="UPDATE enrol... " />
+            <marker date="1489579516405" expanded="true" signature="55499:55540" ph="SELECT \&quot;sch... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="55752:55816" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="56112:56176" ph="SELECT * FRO... enroller_student" />
+            <marker date="1489579516405" expanded="true" signature="56505:56577" ph="SELECT * FRO... enroller_missing_value" />
+            <marker date="1489579516405" expanded="true" signature="56781:56815" ph="SELECT MAX(i... enroller_admin" />
+            <marker date="1489579516405" expanded="true" signature="56991:57091" ph="INSERT INTO enroller_admin... " />
+          </folding>
         </state>
       </provider>
     </entry>
