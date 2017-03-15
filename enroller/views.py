@@ -102,7 +102,7 @@ def mainSurveyPage(request):
 def homeLangSurvey(request):
     if 'username' in request.COOKIES:
         username = request.COOKIES.get('username')
-        namesAndRadioEntries = ['Survey Language',
+        namesAndRadioEntries = ['Student\'s First Language',
                                 '#surveyLanguage',
                                 '*b',
                                 'Is a language other than English spoken at home?',
@@ -230,7 +230,7 @@ def previousSchoolSurveyPage(request):
 def emergencyAndHealthInfoPage(request):
     if 'username' in request.COOKIES:
         username = request.COOKIES.get('username')
-        confidential1 = ['awaiting foster care placement', 'in a car/park/other public place', 'doubled-up' 'in a hotel/motel', 'in a shelter', 'in transitional housing', 'none of the above']
+        confidential1 = ['awaiting foster care placement', 'in a car/park/other public place', 'doubled-up' ' in a hotel/motel', 'in a shelter', 'in transitional housing', 'none of the above']
         insuranceOptions = ['Illinois Medical Card', 'No Insurance', 'Private/Employer Health Insurance']
         namesAndRadioEntries = ['Select one of the below options only if (1) it reflects your child\'s current living situation; OR (2) it reflects your living situation if you are a youth not living with a Parent or Guardian. (Your answer will help school staff with enrollment and may enable the student to receieve additional services.)', confidential1,
                                 '#confidentialInfoBox1',
