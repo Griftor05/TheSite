@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/serverWorking.py" afterPath="$PROJECT_DIR$/enroller/serverWorking.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/settings.py" afterPath="$PROJECT_DIR$/enroller/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
     </list>
     <ignored path="EnrollmentWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,6 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/enroller/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroller/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serverWorking.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serverWorking.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="587" column="104" selection-start-line="587" selection-start-column="104" selection-end-line="587" selection-end-column="104" />
+            <state relative-caret-position="-346">
+              <caret line="906" column="27" selection-start-line="906" selection-start-column="22" selection-end-line="906" selection-end-column="27" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#391#763#0" expanded="false" />
@@ -56,8 +67,8 @@
                 <element signature="e#21757#22104#0" expanded="false" />
                 <element signature="e#22381#23252#0" expanded="false" />
                 <element signature="e#23382#23661#0" expanded="false" />
+                <element signature="e#23823#25061#0" expanded="false" />
                 <element signature="e#25175#26530#0" expanded="false" />
-                <element signature="e#36301#37522#0" expanded="false" />
                 <element signature="e#37603#38175#0" expanded="false" />
                 <element signature="e#38251#38557#0" expanded="false" />
                 <element signature="e#38690#38766#0" expanded="false" />
@@ -147,16 +158,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forgotPasswordPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -165,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/enroller/settings.py" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html" />
         <option value="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" />
         <option value="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" />
@@ -176,9 +176,10 @@
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" />
-        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
         <option value="$PROJECT_DIR$/enroller/views.py" />
         <option value="$PROJECT_DIR$/enroller/serverWorking.py" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
+        <option value="$PROJECT_DIR$/enroller/settings.py" />
       </list>
     </option>
   </component>
@@ -659,8 +660,8 @@
             <element signature="e#21757#22104#0" expanded="false" />
             <element signature="e#22381#23252#0" expanded="false" />
             <element signature="e#23382#23661#0" expanded="false" />
+            <element signature="e#23823#25061#0" expanded="false" />
             <element signature="e#25175#26530#0" expanded="false" />
-            <element signature="e#36301#37522#0" expanded="false" />
             <element signature="e#37603#38175#0" expanded="false" />
             <element signature="e#38251#38557#0" expanded="false" />
             <element signature="e#38690#38766#0" expanded="false" />
@@ -757,14 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enroller/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="132" column="50" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/loginPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -837,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/enroller/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -855,10 +840,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/enroller/serverWorking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="587" column="104" selection-start-line="587" selection-start-column="104" selection-end-line="587" selection-end-column="104" />
+        <state relative-caret-position="-346">
+          <caret line="906" column="27" selection-start-line="906" selection-start-column="22" selection-end-line="906" selection-end-column="27" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
             <element signature="e#391#763#0" expanded="false" />
@@ -872,8 +865,8 @@
             <element signature="e#21757#22104#0" expanded="false" />
             <element signature="e#22381#23252#0" expanded="false" />
             <element signature="e#23382#23661#0" expanded="false" />
+            <element signature="e#23823#25061#0" expanded="false" />
             <element signature="e#25175#26530#0" expanded="false" />
-            <element signature="e#36301#37522#0" expanded="false" />
             <element signature="e#37603#38175#0" expanded="false" />
             <element signature="e#38251#38557#0" expanded="false" />
             <element signature="e#38690#38766#0" expanded="false" />
@@ -959,6 +952,14 @@
             <marker date="1489587922065" expanded="true" signature="56781:56815" ph="SELECT MAX(i... enroller_admin" />
             <marker date="1489587922065" expanded="true" signature="56991:57091" ph="INSERT INTO enroller_admin... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enroller/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
