@@ -251,7 +251,7 @@ def emergencyAndHealthInfoPage(request):
                                 'Family Doctor Name',
                                 '#doctorName',
                                 '*a',
-                                'Family Doctor Address',
+                                'Doctor\'s Office Address',
                                 '#doctorAddress_id',
                                 'Family Doctor Phone Number',
                                 '#doctorPhoneNumber',
