@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/settings.py" afterPath="$PROJECT_DIR$/enroller/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" />
     </list>
     <ignored path="EnrollmentWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroller/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
               <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resetPasswordPageActual.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resetPasswordPageConf.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -173,13 +193,13 @@
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/successfulReset.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html" />
-        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" />
-        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html" />
         <option value="$PROJECT_DIR$/enroller/views.py" />
         <option value="$PROJECT_DIR$/enroller/serverWorking.py" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/forgotPasswordPage.html" />
         <option value="$PROJECT_DIR$/enroller/settings.py" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
+        <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html" />
       </list>
     </option>
   </component>
@@ -798,22 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/registerPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -959,6 +963,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageConf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>
