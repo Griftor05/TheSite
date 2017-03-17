@@ -1479,5 +1479,6 @@ def createAnAdmin(usn, pwd, email):
 
 
 def createEmptyStudent():
-    newId = createStudent('', '', '', '', '', '', '', '', '', '', '', '')
+    newId = createStudent('DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT',
+                          'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT')
     print(newId)
