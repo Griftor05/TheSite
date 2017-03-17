@@ -12,7 +12,7 @@ class Student(models.Model):
     # If the tag provided matches with their given tag, they can enter it in order to reset their password
     resetVal = models.CharField(max_length=10)
     # Text field to hold email name
-    username = models.CharField(max_length=20)
+    username = models.CharField(max_length=200)
     # Text field to take in password
     # Password should be hashed on retrieval
     password = models.CharField(max_length=1000)
