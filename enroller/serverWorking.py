@@ -557,7 +557,7 @@ def checkLoginData(username, password, type):
             else:
                 passwordMatch = False
             if type == 'normal':
-                locked = usr[-4]
+                locked = usr[-3]
 
     returner = [found, passwordMatch, locked]
     return returner
