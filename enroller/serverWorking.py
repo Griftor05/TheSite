@@ -1215,7 +1215,7 @@ def createStudent(id, name, gender, grade, race, address, city, state, zip, pare
     pushStr = nameCollapser(pushStr, columns)[0:-2]
     pushStr += ") VALUES ('" + str(topId) + "', '" + str(token) + "', '', '', '" + str(contactSurveyId) + "', '" + str(emergencyAndHealthId)
     pushStr += "', '" + str(homeLanguageSurveyId) + "', '" + str(mainSurveyId) + "', '" + str(mediaConsentFormId)
-    pushStr += "', '" + str(previousSchoolSurveyId) + "', '" + str(raceAndEthnicitySurveyId) + "', false, '', '"
+    pushStr += "', '" + str(previousSchoolSurveyId) + "', '" + str(raceAndEthnicitySurveyId) + "', false, '"
     pushStr +=  "', '" + str(id) + "');"
 
     cur.execute(pushStr)
@@ -1479,6 +1479,6 @@ def createAnAdmin(usn, pwd, email):
 
 
 def createEmptyStudent():
-    newId = createStudent('DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT',
-                          'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT', 'DEFAULT')
+    newId = createStudent('DEFAULT', 'DEFAULT, DEFAULT', 'DEFAULT', '9', 'DEFAULT', 'DEFAULT',
+                          'DEFAULT', 'IL', 'DEFAU', 'DEFAULT', 'DEFAULT', 'DEFAULT')
     print(newId)
