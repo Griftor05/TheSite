@@ -974,7 +974,7 @@ def nameCollapser(str1, listToAdd):
 
 
 # Creates a single student given a few specific variables, as specified by the input data given by Mr Soto
-def createStudent(id, division, name, gender, grade, race, address, city, state, zip, parentName, relationshipToStudent, parentPhoneNumber):
+def createStudent(id, name, gender, grade, race, address, city, state, zip, parentName, relationshipToStudent, parentPhoneNumber):
     conn = connectToServer()
     cur = conn.cursor()
 
@@ -1211,12 +1211,12 @@ def createStudent(id, division, name, gender, grade, race, address, city, state,
     pushStr = "INSERT INTO enroller_student ("
     columns = ['id', 'activationcode', 'username', 'password', 'contactsurvey_id', 'emergencyandhealthinfo_id',
                'homelanguagesurvey_id', 'mainsurvey_id', 'mediaconsentform_id', 'previousschoolsurvey_id',
-               'raceandethnicitysurvey_id', 'accountLocked', 'resetVal', 'divisionNumber', 'schoolId']
+               'raceandethnicitysurvey_id', 'accountLocked', 'resetVal', 'schoolId']
     pushStr = nameCollapser(pushStr, columns)[0:-2]
     pushStr += ") VALUES ('" + str(topId) + "', '" + str(token) + "', '', '', '" + str(contactSurveyId) + "', '" + str(emergencyAndHealthId)
     pushStr += "', '" + str(homeLanguageSurveyId) + "', '" + str(mainSurveyId) + "', '" + str(mediaConsentFormId)
     pushStr += "', '" + str(previousSchoolSurveyId) + "', '" + str(raceAndEthnicitySurveyId) + "', false, '', '"
-    pushStr += str(division) + "', '" + str(id) + "');"
+    pushStr +=  "', '" + str(id) + "');"
 
     cur.execute(pushStr)
     conn.commit()
@@ -1331,20 +1331,19 @@ def addLoadsOfKids(myFile):
         # Have to add the student, from this list of items related to the student
         # Figure out the kid's name, first
         idNum = regStu[0]
-        division = regStu[1]
-        name = regStu[3][1:-1] + " " + regStu[2][1:]
-        gender = regStu[4]
-        entryGrade = regStu[5]
-        race = regStu[6]
-        addressStreeNameAndNum = regStu[7]
-        city = regStu[8]
-        state = regStu[9]
-        zip = regStu[10]
-        parentName = regStu[11]
-        relationship = regStu[12]
-        pn = regStu[13][:-2]
+        name = regStu[2][1:-1] + " " + regStu[1][1:]
+        gender = regStu[3]
+        entryGrade = regStu[4]
+        race = regStu[5]
+        addressStreeNameAndNum = regStu[6]
+        city = regStu[7]
+        state = regStu[8]
+        zip = regStu[9]
+        parentName = regStu[10]
+        relationship = regStu[11]
+        pn = regStu[12][:-2]
 
-        kidId = createStudent(idNum, division, name, gender, entryGrade, race, addressStreeNameAndNum, city, state, zip,
+        kidId = createStudent(idNum, name, gender, entryGrade, race, addressStreeNameAndNum, city, state, zip,
                               parentName, relationship, pn)
         kidList = [name, kidId]
         kidTokens.append(kidList)
@@ -1477,3 +1476,8 @@ def createAnAdmin(usn, pwd, email):
     pushStr += pwd + "', '" + email + "');"
     cur.execute(pushStr)
     conn.commit()
+
+
+def createEmptyStudent():
+    newId = createStudent('', '', '', '', '', '', '', '', '', '', '', '')
+    print(newId)

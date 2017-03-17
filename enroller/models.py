@@ -8,8 +8,6 @@ class Student(models.Model):
     accountLocked = models.BooleanField(default=False)
     # ID at school
     schoolId = models.CharField(max_length=8)
-    # Division at school
-    divisionNumber = models.CharField(max_length=4)
     # Reset val, whenever someone loses their password, they will be given a randomly generated tag
     # If the tag provided matches with their given tag, they can enter it in order to reset their password
     resetVal = models.CharField(max_length=10)

@@ -92,8 +92,8 @@ def mainSurveyPage(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -120,8 +120,8 @@ def homeLangSurvey(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -139,8 +139,8 @@ def raceAndEthnicitySurvey(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -160,8 +160,8 @@ def mediaConsentFormPage(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -184,8 +184,8 @@ def contactSurveyPage(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -220,8 +220,8 @@ def previousSchoolSurveyPage(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -265,8 +265,8 @@ def emergencyAndHealthInfoPage(request):
 
         c = makeContext(dbName, username, namesAndRadioEntries, nameOfSurvey)
         a = render(request, 'enroller/Main Site Pages/surveyTemplate.html', context=c)
-        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=3600)
-        a.set_cookie('surveyName', dbName, max_age=3600)
+        a.set_cookie('NamesAndRadioLists', namesAndRadioEntries, max_age=7200)
+        a.set_cookie('surveyName', dbName, max_age=7200)
         return a
     else:
         return redirect('/login')
@@ -324,7 +324,7 @@ def login(request):
             a = render(request, 'enroller/Main Site Pages/loginPage.html', con)
         elif bools[0] and bools[1]:
             a = redirect('/mainPage')
-            a.set_cookie('username', username, max_age=3600)
+            a.set_cookie('username', username, max_age=7200)
     return a
 
 
@@ -348,7 +348,7 @@ def sendResetEmail(request):
 
     if worked:
         a = render(request, 'enroller/Main Site Pages/resetPasswordPageConf.html')
-        a.set_cookie('username', email, max_age=3600)
+        a.set_cookie('username', email, max_age=7200)
         return a
     else:
         context = {'errorMessage':'That username wasn\'t found in our database.'}
@@ -397,7 +397,7 @@ def loginAdmin(request):
             a = render(request, 'enroller/adminPages/adminLoginPage.html', con)
         elif bools[0] and bools[1]:
             a = redirect('/adminMain')
-            a.set_cookie('adminUsername', superHash(password, username), max_age=3600)
+            a.set_cookie('adminUsername', superHash(password, username), max_age=7200)
     return a
 
 
@@ -494,7 +494,7 @@ def checkForKid(request):
         if student != 'sorryButNope':
             c = {'kidName':student}
             a = render(request, 'enroller/adminPages/showKidGotten.html', context=c)
-            a.set_cookie('kidId', theId, max_age=3600)
+            a.set_cookie('kidId', theId, max_age=7200)
             return a
         else:
             c = {'errorMessage':'Sorry, I couldn\'t find that student in the database. Did you get the id correct?'}
