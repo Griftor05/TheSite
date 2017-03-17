@@ -319,7 +319,7 @@ def login(request):
         elif not bools[0]:
             con = Context({'errorMessage':'Your username was not found. Are you sure you have registered?'})
             a = render(request, 'enroller/Main Site Pages/loginPage.html', con)
-        elif bools[0] and bools[1] and bools[2]:
+        elif bools[0] and bools[1] and not bools[2]:
             con = Context({'errorMessage':'Your account has been locked. Contact your administrator if you believe this is a mistake.'})
             a = render(request, 'enroller/Main Site Pages/loginPage.html', con)
         elif bools[0] and bools[1]:
