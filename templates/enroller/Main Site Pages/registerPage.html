@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/static/enroller/GeneralPage.css" />
 </head>
 <body>
+    <div class="mainContent">
     <form action="{% url 'register' %}" method="post">
     {% csrf_token %}
         <div class="container">
@@ -28,5 +29,6 @@
             <input type="submit" value="Register" />
         </div>
     </form>
+    </div>
 </body>
 </html>
