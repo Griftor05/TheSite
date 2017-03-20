@@ -4,8 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ name }}</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="/static/enroller/GeneralPage.css" />
     <link rel="icon" href="/static/enroller/favicon.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".datepicker").datepicker();
+        });
+    </script>
 </head>
 <body>
     <div class="page">
@@ -292,7 +301,7 @@
             {% if item.0 == 'Date' %}
                 <b>{{ item.1 }}</b>
                 <br>
-                <input  type="date" value="{{ item.2 }}" name="{{ item.1 }}_date">
+                <input  type="text" value="{{ item.2 }}" name="{{ item.1 }}_date" class="datepicker" blank="true">
             {% endif %}
 
             {% if item.0 == 'Boolean' %}
