@@ -113,6 +113,13 @@ def contextRenderEngine(dbName, username, nameAndRadioList):
 
             # Pull in data from address db, using the $tagOffset primary key, and the label of the next tag
 
+        elif tag == '*n':
+            entry.append('Number')
+            entry.append(nameAndRadioList[i + 1])
+            i += 1
+
+            entry.append(dbValues[valsPulled])
+
         elif tag == '*b':
             entry.append('Boolean')
             entry.append(nameAndRadioList[i + 1])
@@ -979,7 +986,7 @@ def createStudent(id, name, gender, grade, race, address, city, state, zip, pare
     cur = conn.cursor()
 
     # Create an activation code for the student
-    hmm = "secretsAreNoFun" + str(datetime.now().time())
+    hmm = "secretsAreTheEnemyOfPassion" + str(datetime.now().time())
     token = superHash(id, hmm)[0:7]
 
     #Then make sure all the items are insertable

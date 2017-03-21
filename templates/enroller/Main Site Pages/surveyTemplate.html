@@ -506,6 +506,11 @@
                 <input type="text" value="{{ item.18 }}" name="{{ item.1 }}_commLang">
             {% endif %}
 
+            {% if item.0 == 'Number' %}
+                <b>{{ item.1 }} </b><br>
+                <input type="number" value="{{ item.2 }}" name="{{ item.1 }}">
+            {% endif %}
+
             {% if item.0 == 'Title' %}
                 <b><u>{{ item.1 }}</u></b>
             {% endif %}

@@ -80,7 +80,7 @@ class MainSurvey(models.Model):
     # Birth Country, dropdown list
     birthCountry = models.CharField(max_length=50, blank=True)
     # Birth State, dropdown list
-    birthDate = models.DateField(null=True, blank=True)
+    birthDate = models.CharField(max_length=10, blank=True)
     # Birth City, text field
     birthCity = models.CharField(max_length=100, blank=True)
     # Date of first enrollment in any US School

@@ -16,6 +16,7 @@ pushes data to the database to find the database entry. I understand this is lim
 '*c' = Country value to follow (Select list with all countries included)
 '*d' = Date value to follow (Date prompt input)
 '*g' = Guardian Contact information to follow (special input form, see below)
+'*n' = Number input
 '*t' = Title to follow
 '*ut' = Underlined Title to follow
 '*v' = verification checkbox to follow

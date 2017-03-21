@@ -45,7 +45,8 @@ def mainSurveyPage(request):
         username = request.COOKIES.get('username')
         genders = ['Male', 'Female']
         birthCertificationType = ['Birth Certificate', 'Passport']
-        namesAndRadioEntries = ['Student ID',
+        namesAndRadioEntries = ['*n',
+                                'Student ID',
                                 '#studentID',
                                 'Last Name',
                                 '#lastName',
