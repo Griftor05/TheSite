@@ -139,7 +139,17 @@ def contextRenderEngine(dbName, username, nameAndRadioList):
             entry.append(nameAndRadioList[i + 1])
             i += 1
 
-            entry.append(str(dbValues[valsPulled]))
+            myDate = str(dbValues[valsPulled])
+
+            print(myDate)
+
+            if myDate != 'None':
+                myDate = myDate[5:7] + '/' + myDate[8:10] + '/' + myDate[0:4]
+
+            print(myDate)
+            print('-------------')
+
+            entry.append(myDate)
 
         elif tag == '*g':
             entry.append('Guardian')
@@ -636,15 +646,11 @@ def checkContactChanged(data, db, usn):
         addressNameList = ['nameNumber', 'apartmentNo', 'city', 'state', 'zipCode']
         collectedInfo = []
 
-        print(data)
-
         for name in addressNameList:
             name = 'Student\'s mailing address_' + name
             collectedInfo.append(data[name][0])
 
         collectedInfo = ['cupidshuffle'] + collectedInfo
-        print(myAddress)
-        print(collectedInfo)
 
         matchup = True
         for num in range(1, 6):
@@ -671,10 +677,6 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
                           'cellPhone':'cellPhoneNumber', 'email':'emailAddress', 'employer':'nameOfEmployer',
                           'workPhone':'workPhoneNumber', 'commLang':'communicationLanguage'}
     namesAndRadioLists = ast.literal_eval(namesAndRadioLists)
-
-    print(data)
-    print('-------------------------------------------------')
-    print(namesAndRadioLists)
 
     # First you have to pull in the data from the student db, and fetch the survey based on that
     strOrigins = "SELECT " + dbName + "_id FROM enroller_student WHERE username='" + username + "';"
@@ -769,7 +771,7 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
             i += 1
             dataColumn = namesAndRadioLists[i]
 
-            if dataItem == '':
+            if dataItem == '' or dataItem == 'None' or dataItem == 'null':
                 pushStr = "UPDATE enroller_" + dbName + " SET \"" + dataColumn[1:] + "\" = NULL WHERE id=" + str(id) + ";"
             else:
                 pushStr = "UPDATE enroller_" + dbName + " SET \"" + dataColumn[1:] + "\" = '" + dataItem + "' WHERE id=" + str(id) + ";"
@@ -854,6 +856,21 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
 
                 j += 1
 
+        elif item == '*n':
+            i += 1
+            nameInDb = namesAndRadioLists[i]
+
+            toEnter = myData.get(item)
+
+            if toEnter is not None:
+                toEnter = toEnter[0]
+
+                pushStr = "UPDATE enroller_" + dbName + " SET \"" + nameInDb + "\" = '" + toEnter + \
+                          "' WHERE \"id\" = " + str(id) + ";"
+
+                cur.execute(pushStr)
+                conn.commit()
+
         elif item == '*v':
             i += 1
             nameOfItem = namesAndRadioLists[i]
@@ -874,12 +891,10 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
                 cur.execute(pushStr)
                 conn.commit()
 
-
         # Could be in a radio list
-        elif i < listLen - 1 and type(namesAndRadioLists[i + 1]) == type([]):
+        elif i < listLen - 1 and type(item) == type([]):
                 i += 2
                 nameInDb = namesAndRadioLists[i][1:]
-                toEnter = myData.get(item + '_radioList')
 
                 if toEnter is not None:
                     toEnter = toEnter[0]
@@ -894,6 +909,7 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
         else:
             i += 1
             nameInDb = namesAndRadioLists[i][1:]
+
             toEnter = myData.get(item)
 
             if toEnter is not None:
@@ -904,8 +920,6 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
 
                 cur.execute(pushStr)
                 conn.commit()
-
-
 
         i += 1
 
@@ -1384,7 +1398,6 @@ def findKid(idNum):
     cur.execute(pushStr)
 
     kid = cur.fetchall()
-    print(pushStr)
 
     if kid == []:
         return "sorryButNope"

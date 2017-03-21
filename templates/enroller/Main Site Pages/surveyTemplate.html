@@ -301,7 +301,7 @@
             {% if item.0 == 'Date' %}
                 <b>{{ item.1 }}</b>
                 <br>
-                <input  type="text" value="{{ item.2 }}" name="{{ item.1 }}_date" class="datepicker" blank="true">
+                <input  type="text" {% ifequal 'None' item.2 %}placeholder="mm/dd/yyyy" {% else %}value="{{ item.2 }}"{% endifequal %} name="{{ item.1 }}_date" class="datepicker" blank="true">
             {% endif %}
 
             {% if item.0 == 'Boolean' %}
