@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/models.py" afterPath="$PROJECT_DIR$/enroller/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/serverWorking.py" afterPath="$PROJECT_DIR$/enroller/serverWorking.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/templateLangGuide" afterPath="$PROJECT_DIR$/enroller/templateLangGuide" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enroller/views.py" afterPath="$PROJECT_DIR$/enroller/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/enroller/GeneralPage.css" afterPath="$PROJECT_DIR$/static/enroller/GeneralPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/enroller/LoginPage.css" afterPath="$PROJECT_DIR$/static/enroller/LoginPage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html" afterPath="$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html" />
-    </list>
+    <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="" />
     <ignored path="EnrollmentWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -640,7 +631,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12526998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
