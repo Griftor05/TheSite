@@ -277,7 +277,7 @@ def emergencyAndHealthInfoPage(request):
 
 
 def register(request):
-    username = request.POST.get("uName", "")
+    username = request.POST.get("uName", "").lower()
     password = request.POST.get("psw", "")
     confirmPassword = request.POST.get("pswConf", "")
     registrationToken = request.POST.get("reg", "")
@@ -312,8 +312,11 @@ def register(request):
 
 
 def login(request):
-    username = request.POST.get("uname", "")
+    username = request.POST.get("uname", "").lower()
     password = request.POST.get("psw", "")
+
+    print(username)
+
     if username == '' and password == '':
         a = render(request, 'enroller/Main Site Pages/loginPage.html')
     else:
@@ -348,7 +351,7 @@ def forgotPassword(request):
 
 
 def sendResetEmail(request):
-    email = request.POST.get('uName')
+    email = request.POST.get('uName').lower()
 
     worked = sendPwdResetEmail(email)
 
@@ -375,7 +378,7 @@ def checkResetToken(request):
 
 def setNewPwd(request):
     pwd = request.POST.get('newPwd')
-    usn = request.COOKIES.get('username')
+    usn = request.COOKIES.get('username').lower()
 
     setNewPasswordInDb(pwd, usn)
 
