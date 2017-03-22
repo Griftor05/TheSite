@@ -46,6 +46,7 @@ def mainSurveyPage(request):
         genders = ['Male', 'Female']
         birthCertificationType = ['Birth Certificate', 'Passport']
         namesAndRadioEntries = ['*n',
+                                '8',
                                 'Student ID',
                                 '#studentID',
                                 'Last Name',
@@ -258,6 +259,8 @@ def emergencyAndHealthInfoPage(request):
                                 '#doctorPhoneNumber',
                                 'Student Health Insurance', insuranceOptions,
                                 '#studentHealthInsurance',
+                                '*n',
+                                '9',
                                 'Illinois Medical ID # (9-digit number located on back of card)',
                                 '#illinoisMedicalCardID',
                                 ]

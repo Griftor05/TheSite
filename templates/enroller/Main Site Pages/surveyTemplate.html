@@ -323,64 +323,14 @@
                 <input type="text" value="{{ item.3 }}" name="{{ item.1 }}_apartmentNo">
                 <br>
                 <br>
-                <b>City</b>
-                <input type="text" value="{{ item.4 }}" name="{{ item.1 }}_city">
+                <b>City:</b>
+                <input type="hidden" value="Chicago" name="{{ item.1 }}_city">
+                Chicago
                 <br>
                 <br>
-                <b>State</b>
-                <select name="{{ item.1 }}_state">
-                    <option value="AL"  {% ifequal item.5 "AL" %}selected{% endifequal %}>Alabama</option>
-                    <option value="AK"  {% ifequal item.5 "AK" %}selected{% endifequal %}>Alaska</option>
-                    <option value="AZ"  {% ifequal item.5 "AZ" %}selected{% endifequal %}>Arizona</option>
-                    <option value="AR"  {% ifequal item.5 "AR" %}selected{% endifequal %}>Arkansas</option>
-                    <option value="CA"  {% ifequal item.5 "CA" %}selected{% endifequal %}>California</option>
-                    <option value="CO"  {% ifequal item.5 "CO" %}selected{% endifequal %}>Colorado</option>
-                    <option value="CT"  {% ifequal item.5 "CT" %}selected{% endifequal %}>Connecticut</option>
-                    <option value="DE"  {% ifequal item.5 "DE" %}selected{% endifequal %}>Delaware</option>
-                    <option value="DC"  {% ifequal item.5 "DC" %}selected{% endifequal %}>District of Columbia</option>
-                    <option value="FL"  {% ifequal item.5 "FL" %}selected{% endifequal %}>Florida</option>
-                    <option value="GA"  {% ifequal item.5 "GA" %}selected{% endifequal %}>Georgia</option>
-                    <option value="HI"  {% ifequal item.5 "HI" %}selected{% endifequal %}>Hawaii</option>
-                    <option value="ID"  {% ifequal item.5 "ID" %}selected{% endifequal %}>Idaho</option>
-                    <option value="IL"  {% ifequal item.5 "IL" %}selected{% endifequal %}>Illinois</option>
-                    <option value="IN"  {% ifequal item.5 "IN" %}selected{% endifequal %}>Indiana</option>
-                    <option value="IA"  {% ifequal item.5 "IA" %}selected{% endifequal %}>Iowa</option>
-                    <option value="KS"  {% ifequal item.5 "KS" %}selected{% endifequal %}>Kansas</option>
-                    <option value="KY"  {% ifequal item.5 "KY" %}selected{% endifequal %}>Kentucky</option>
-                    <option value="LA"  {% ifequal item.5 "LA" %}selected{% endifequal %}>Louisiana</option>
-                    <option value="ME"  {% ifequal item.5 "ME" %}selected{% endifequal %}>Maine</option>
-                    <option value="MD"  {% ifequal item.5 "MD" %}selected{% endifequal %}>Maryland</option>
-                    <option value="MA"  {% ifequal item.5 "MA" %}selected{% endifequal %}>Massachusetts</option>
-                    <option value="MI"  {% ifequal item.5 "MI" %}selected{% endifequal %}>Michigan</option>
-                    <option value="MN"  {% ifequal item.5 "MN" %}selected{% endifequal %}>Minnesota</option>
-                    <option value="MS"  {% ifequal item.5 "MS" %}selected{% endifequal %}>Mississippi</option>
-                    <option value="MO"  {% ifequal item.5 "MO" %}selected{% endifequal %}>Missouri</option>
-                    <option value="MT"  {% ifequal item.5 "MT" %}selected{% endifequal %}>Montana</option>
-                    <option value="NE"  {% ifequal item.5 "NE" %}selected{% endifequal %}>Nebraska</option>
-                    <option value="NV"  {% ifequal item.5 "NV" %}selected{% endifequal %}>Nevada</option>
-                    <option value="NH"  {% ifequal item.5 "NH" %}selected{% endifequal %}>New Hampshire</option>
-                    <option value="NJ"  {% ifequal item.5 "NJ" %}selected{% endifequal %}>New Jersey</option>
-                    <option value="NM"  {% ifequal item.5 "NM" %}selected{% endifequal %}>New Mexico</option>
-                    <option value="NY"  {% ifequal item.5 "NY" %}selected{% endifequal %}>New York</option>
-                    <option value="NC"  {% ifequal item.5 "NC" %}selected{% endifequal %}>North Carolina</option>
-                    <option value="ND"  {% ifequal item.5 "ND" %}selected{% endifequal %}>North Dakota</option>
-                    <option value="OH"  {% ifequal item.5 "OH" %}selected{% endifequal %}>Ohio</option>
-                    <option value="OK"  {% ifequal item.5 "OK" %}selected{% endifequal %}>Oklahoma</option>
-                    <option value="OR"  {% ifequal item.5 "OR" %}selected{% endifequal %}>Oregon</option>
-                    <option value="PA"  {% ifequal item.5 "PA" %}selected{% endifequal %}>Pennsylvania</option>
-                    <option value="RI"  {% ifequal item.5 "RI" %}selected{% endifequal %}>Rhode Island</option>
-                    <option value="SC"  {% ifequal item.5 "SC" %}selected{% endifequal %}>South Carolina</option>
-                    <option value="SD"  {% ifequal item.5 "SD" %}selected{% endifequal %}>South Dakota</option>
-                    <option value="TN"  {% ifequal item.5 "TN" %}selected{% endifequal %}>Tennessee</option>
-                    <option value="TX"  {% ifequal item.5 "TX" %}selected{% endifequal %}>Texas</option>
-                    <option value="UT"  {% ifequal item.5 "UT" %}selected{% endifequal %}>Utah</option>
-                    <option value="VT"  {% ifequal item.5 "VT" %}selected{% endifequal %}>Vermont</option>
-                    <option value="VA"  {% ifequal item.5 "VA" %}selected{% endifequal %}>Virginia</option>
-                    <option value="WA"  {% ifequal item.5 "WA" %}selected{% endifequal %}>Washington</option>
-                    <option value="WV"  {% ifequal item.5 "WV" %}selected{% endifequal %}>West Virginia</option>
-                    <option value="WI"  {% ifequal item.5 "WI" %}selected{% endifequal %}>Wisconsin</option>
-                    <option value="WY"  {% ifequal item.5 "WY" %}selected{% endifequal %}>Wyoming</option>
-                </select>
+                <b>State:</b>
+                <input type="hidden" value="IL" name="{{ item.1 }}_state">
+                Illinois
                 <br>
                 <br>
                 <b>Zip Code</b>
@@ -417,64 +367,15 @@
                     <input type="text" value="{{ item.9 }}" name="{{ item.1 }}_apartmentNo">
                     <br>
                     <br>
-                    <b>City</b>
-                    <input type="text" value="{{ item.10 }}" name="{{ item.1 }}_city">
+                    <b>City:</b>
+                    <input type="hidden" value="{{ item.10 }}" name="{{ item.1 }}_city">
+                    Chicago
                     <br>
                     <br>
-                    <b>State</b>
-                    <select name="{{ item.1 }}_state">
-                        <option value="AL"  {% ifequal item.11 "AL" %}selected{% endifequal %}>Alabama</option>
-                        <option value="AK"  {% ifequal item.11 "AK" %}selected{% endifequal %}>Alaska</option>
-                        <option value="AZ"  {% ifequal item.11 "AZ" %}selected{% endifequal %}>Arizona</option>
-                        <option value="AR"  {% ifequal item.11 "AR" %}selected{% endifequal %}>Arkansas</option>
-                        <option value="CA"  {% ifequal item.11 "CA" %}selected{% endifequal %}>California</option>
-                        <option value="CO"  {% ifequal item.11 "CO" %}selected{% endifequal %}>Colorado</option>
-                        <option value="CT"  {% ifequal item.11 "CT" %}selected{% endifequal %}>Connecticut</option>
-                        <option value="DE"  {% ifequal item.11 "DE" %}selected{% endifequal %}>Delaware</option>
-                        <option value="DC"  {% ifequal item.11 "DC" %}selected{% endifequal %}>District of Columbia</option>
-                        <option value="FL"  {% ifequal item.11 "FL" %}selected{% endifequal %}>Florida</option>
-                        <option value="GA"  {% ifequal item.11 "GA" %}selected{% endifequal %}>Georgia</option>
-                        <option value="HI"  {% ifequal item.11 "HI" %}selected{% endifequal %}>Hawaii</option>
-                        <option value="ID"  {% ifequal item.11 "ID" %}selected{% endifequal %}>Idaho</option>
-                        <option value="IL"  {% ifequal item.11 "IL" %}selected{% endifequal %}>Illinois</option>
-                        <option value="IN"  {% ifequal item.11 "IN" %}selected{% endifequal %}>Indiana</option>
-                        <option value="IA"  {% ifequal item.11 "IA" %}selected{% endifequal %}>Iowa</option>
-                        <option value="KS"  {% ifequal item.11 "KS" %}selected{% endifequal %}>Kansas</option>
-                        <option value="KY"  {% ifequal item.11 "KY" %}selected{% endifequal %}>Kentucky</option>
-                        <option value="LA"  {% ifequal item.11 "LA" %}selected{% endifequal %}>Louisiana</option>
-                        <option value="ME"  {% ifequal item.11 "ME" %}selected{% endifequal %}>Maine</option>
-                        <option value="MD"  {% ifequal item.11 "MD" %}selected{% endifequal %}>Maryland</option>
-                        <option value="MA"  {% ifequal item.11 "MA" %}selected{% endifequal %}>Massachusetts</option>
-                        <option value="MI"  {% ifequal item.11 "MI" %}selected{% endifequal %}>Michigan</option>
-                        <option value="MN"  {% ifequal item.11 "MN" %}selected{% endifequal %}>Minnesota</option>
-                        <option value="MS"  {% ifequal item.11 "MS" %}selected{% endifequal %}>Mississippi</option>
-                        <option value="MO"  {% ifequal item.11 "MO" %}selected{% endifequal %}>Missouri</option>
-                        <option value="MT"  {% ifequal item.11 "MT" %}selected{% endifequal %}>Montana</option>
-                        <option value="NE"  {% ifequal item.11 "NE" %}selected{% endifequal %}>Nebraska</option>
-                        <option value="NV"  {% ifequal item.11 "NV" %}selected{% endifequal %}>Nevada</option>
-                        <option value="NH"  {% ifequal item.11 "NH" %}selected{% endifequal %}>New Hampshire</option>
-                        <option value="NJ"  {% ifequal item.11 "NJ" %}selected{% endifequal %}>New Jersey</option>
-                        <option value="NM"  {% ifequal item.11 "NM" %}selected{% endifequal %}>New Mexico</option>
-                        <option value="NY"  {% ifequal item.11 "NY" %}selected{% endifequal %}>New York</option>
-                        <option value="NC"  {% ifequal item.11 "NC" %}selected{% endifequal %}>North Carolina</option>
-                        <option value="ND"  {% ifequal item.11 "ND" %}selected{% endifequal %}>North Dakota</option>
-                        <option value="OH"  {% ifequal item.11 "OH" %}selected{% endifequal %}>Ohio</option>
-                        <option value="OK"  {% ifequal item.11 "OK" %}selected{% endifequal %}>Oklahoma</option>
-                        <option value="OR"  {% ifequal item.11 "OR" %}selected{% endifequal %}>Oregon</option>
-                        <option value="PA"  {% ifequal item.11 "PA" %}selected{% endifequal %}>Pennsylvania</option>
-                        <option value="RI"  {% ifequal item.11 "RI" %}selected{% endifequal %}>Rhode Island</option>
-                        <option value="SC"  {% ifequal item.11 "SC" %}selected{% endifequal %}>South Carolina</option>
-                        <option value="SD"  {% ifequal item.11 "SD" %}selected{% endifequal %}>South Dakota</option>
-                        <option value="TN"  {% ifequal item.11 "TN" %}selected{% endifequal %}>Tennessee</option>
-                        <option value="TX"  {% ifequal item.11 "TX" %}selected{% endifequal %}>Texas</option>
-                        <option value="UT"  {% ifequal item.11 "UT" %}selected{% endifequal %}>Utah</option>
-                        <option value="VT"  {% ifequal item.11 "VT" %}selected{% endifequal %}>Vermont</option>
-                        <option value="VA"  {% ifequal item.11 "VA" %}selected{% endifequal %}>Virginia</option>
-                        <option value="WA"  {% ifequal item.11 "WA" %}selected{% endifequal %}>Washington</option>
-                        <option value="WV"  {% ifequal item.11 "WV" %}selected{% endifequal %}>West Virginia</option>
-                        <option value="WI"  {% ifequal item.11 "WI" %}selected{% endifequal %}>Wisconsin</option>
-                        <option value="WY"  {% ifequal item.11 "WY" %}selected{% endifequal %}>Wyoming</option>
-                    </select>
+                    <b>State:</b>
+                    <input type="hidden" value="IL" name="{{ item.1 }}_state">
+                    Illinois
+
                     <br>
                     <br>
                     <b>Zip Code</b>
@@ -507,8 +408,8 @@
             {% endif %}
 
             {% if item.0 == 'Number' %}
-                <b>{{ item.1 }} </b><br>
-                <input type="number" value="{{ item.2 }}" name="{{ item.1 }}">
+                <b>{{ item.2 }} </b><br>
+                <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="{{ item.1 }}" value="{{ item.3 }}" name="{{ item.2 }}">
             {% endif %}
 
             {% if item.0 == 'Title' %}

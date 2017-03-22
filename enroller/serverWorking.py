@@ -115,7 +115,9 @@ def contextRenderEngine(dbName, username, nameAndRadioList):
 
         elif tag == '*n':
             entry.append('Number')
-            entry.append(nameAndRadioList[i + 1])
+            i += 1
+            entry.append(nameAndRadioList[i]) # Grabs the max len of the number
+            entry.append(nameAndRadioList[i + 1]) # Grabs the name of the data item for the page
             i += 1
 
             entry.append(dbValues[valsPulled])
@@ -141,13 +143,8 @@ def contextRenderEngine(dbName, username, nameAndRadioList):
 
             myDate = str(dbValues[valsPulled])
 
-            print(myDate)
-
             if myDate != 'None':
                 myDate = myDate[5:7] + '/' + myDate[8:10] + '/' + myDate[0:4]
-
-            print(myDate)
-            print('-------------')
 
             entry.append(myDate)
 
@@ -857,10 +854,10 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
                 j += 1
 
         elif item == '*n':
+            i += 2 # Can safely skip the maxlength attribute of the number
+            toEnter = myData.get(namesAndRadioLists[i])
             i += 1
-            nameInDb = namesAndRadioLists[i]
-
-            toEnter = myData.get(item)
+            nameInDb = namesAndRadioLists[i][1:]
 
             if toEnter is not None:
                 toEnter = toEnter[0]
@@ -892,7 +889,8 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
                 conn.commit()
 
         # Could be in a radio list
-        elif i < listLen - 1 and type(item) == type([]):
+        elif i < listLen - 1 and type(namesAndRadioLists[i + 1]) == type([]):
+                toEnter = myData.get(namesAndRadioLists[i] + "_radioList")
                 i += 2
                 nameInDb = namesAndRadioLists[i][1:]
 
@@ -908,6 +906,7 @@ def pushDataToDb(dbName, username, data, namesAndRadioLists):
         # Otherwise, it's a text box
         else:
             i += 1
+
             nameInDb = namesAndRadioLists[i][1:]
 
             toEnter = myData.get(item)
