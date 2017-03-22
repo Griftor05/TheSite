@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="" />
+    <list default="true" id="1434ded6-19bf-4253-b51d-92dfff53e6c4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="EnrollmentWebsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -36,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroller/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
@@ -44,6 +46,26 @@
               <folding>
                 <element signature="e#1340#4204#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/enroller/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +110,6 @@
         <option value="$PROJECT_DIR$/templates/enroller/adminPages/addNewStudentPage.html" />
         <option value="$PROJECT_DIR$/templates/enroller/adminPages/addMultipleStudents.html" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/studentBeenCreated.html" />
-        <option value="$PROJECT_DIR$/enroller/settings.py" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/resetPasswordPageActual.html" />
         <option value="$PROJECT_DIR$/static/jsStuff/datePickerPles.js" />
         <option value="$PROJECT_DIR$/static/enroller/GeneralPage.css" />
@@ -105,6 +126,8 @@
         <option value="$PROJECT_DIR$/enroller/serverWorking.py" />
         <option value="$PROJECT_DIR$/templates/enroller/Main Site Pages/allSurveysFinished.html" />
         <option value="$PROJECT_DIR$/enroller/views.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/enroller/settings.py" />
       </list>
     </option>
   </component>
@@ -578,16 +601,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/enroller/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8300">
-          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
-          <folding>
-            <element signature="e#1340#4204#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/enroller/Main Site Pages/surveyTemplate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -815,14 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/enroller/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="141" column="44" selection-start-line="141" selection-start-column="44" selection-end-line="141" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/jquery-ui-1.12.1/external/jquery/jquery.js" />
     <entry file="file://$PROJECT_DIR$/static/jsStuff/datePickerPles.js" />
     <entry file="file://$PROJECT_DIR$/enroller/migrations/0025_auto_20170320_1850.py">
@@ -943,6 +948,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/enroller/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -950,6 +963,14 @@
           <folding>
             <element signature="e#1340#4204#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enroller/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
