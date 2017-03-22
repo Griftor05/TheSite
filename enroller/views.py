@@ -27,13 +27,19 @@ def mainPage(request):
         completionDict = checkSurveyCompletion(request.COOKIES.get('username'))
         context = {}
 
+        fins = 0
+
         for name, tf in completionDict.items():
             if tf:
                 color = 'green'
+                fins += 1
             else:
                 color = 'red'
 
             context[name + "Color"] = color
+
+        if fins == 7: # If all surveys are finished
+            return render(request, 'enroller/Main Site Pages/allSurveysFinished.html')
 
         return render(request, 'enroller/Main Site Pages/mainPage.html', context=context)
     else:
