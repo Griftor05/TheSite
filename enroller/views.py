@@ -301,7 +301,9 @@ def register(request):
     elif bools[0] and not bools[1]:
         # Returns the page "You successfully registered!"
         registerStudent(username, password, registrationToken)
-        con = Context({'errorMessage':'Successfully registered!'})
+        a = redirect('/mainPage')
+        a.set_cookie('username', username, max_age=7200)
+        return a
     else:
         # Returns the page "Your code couldn't be found. Contact your administrator if you think this is a mistake."
         con = Context({'errorMessage':'Your registration token couldn\'t be validated. Contact your administrator if you believe this is a mistake.'})
